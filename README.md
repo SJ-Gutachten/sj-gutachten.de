@@ -85,5 +85,16 @@ Testanfragen landen dann in `storage/testmail.txt`.
 - CSS, JavaScript und Bilder liegen lokal statt auf dem Webflow-CDN; die Dateien haben sprechende Namen.
 - `/index.html` und Adressen mit `.html` oder `.php` leiten auf die Adresse ohne Endung weiter.
 
-Alles Weitere – Texte, Impressum, Datenschutz, Tracking-Code, Schriften, Animationen und auch die in
-`ANALYSE.md` beschriebenen Auffälligkeiten – ist unverändert.
+## Verbesserungen nach dem Umzug (November 2026)
+
+- **Navigation:** Auf Unterseiten führen die Menüpunkte und das Orte-Dropdown jetzt zu den Abschnitten der Startseite (`/#Einsatzgebiet` usw.), das Logo zur Startseite.
+- **Handy-Darstellung:** `/anfrage` und `/datenschutz` sind nicht mehr breiter als der Bildschirm (feste Containerbreite aufgehoben, lange Internetadressen brechen um).
+- **Schriften lokal:** Die im CSS verwendeten Schriften liegen unter `assets/fonts`; Google Fonts und `webfont.js` werden nicht mehr geladen.
+- **Bilder:** Karte, Hintergrundfoto und große Galeriebilder als WebP bzw. neu komprimiert, fehlende Bildmaße ergänzt.
+- **Suchmaschinen:** Canonical-Tag und Vorschaubild auf allen Seiten; eine `<h1>` auf Startseite und `/anfrage`; korrekte Firmendaten und Öffnungszeiten in den strukturierten Daten; `/success` aus der Sitemap genommen und auf „nicht indexieren“ gesetzt.
+- **Aufgeräumt auf `/anfrage`:** Verweise auf nicht vorhandene Dateien, doppelte Vorschau-Angaben und das Platzhalter-Analytics (`G-XXXXXXXXXX`) entfernt; Formularfelder für Screenreader beschriftet.
+
+Überschriften, deren Ebene geändert wurde, tragen die Klasse `wie-h2`, damit sie aussehen wie zuvor.
+
+Unverändert sind Impressum, Datenschutzerklärung und der Tracking-Code (Google Tag Manager, Google Analytics).
+Das Vorschaubild für soziale Netzwerke ist vorerst das Logo; ein eigenes Bild im Format 1200 × 630 px wäre besser.

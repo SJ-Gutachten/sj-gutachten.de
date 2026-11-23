@@ -2,7 +2,8 @@
 http_response_code(404);
 $page = [
     'path'        => '/404',
-    'title'       => 'Not Found',
+    'title'       => 'Seite nicht gefunden',
+    'noindex'     => true,
     'wf_page'     => '67ee50c9927ae4a9464a69d4',   // Webflow-Seiten-ID, steuert die Animationen in webflow.js
     'webflow_js'  => 'webflow.5281b070.a9ce8bfc3ea505ac.js',
 ];

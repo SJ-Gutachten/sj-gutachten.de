@@ -32,7 +32,9 @@ Aus Webflow übernommen; Struktur und Ablauf stehen in `README.md`, der Ausgangs
 ## Stolpersteine
 
 - Die Hauptadresse ist `https://www.sj-gutachten.de` (mit `www`); die Adresse ohne `www` leitet dorthin weiter.
-- `includes/header.php` enthält Fallunterscheidungen: Auf der Startseite springen die Menüpunkte zu Abschnitten, auf Unterseiten zeigen sie (wie im Original) auf `#`.
+- `includes/header.php`: Die Menüpunkte sind Sprungmarken der Startseite. Über `$start` bekommen sie auf Unterseiten ein `/` vorangestellt (`/#FAQ`), damit sie von dort zur Startseite führen.
+- Schriften sind lokal eingebunden (`assets/css/schriften.css`, Dateien in `assets/fonts`). Keine Schriften von Google oder anderen Servern nachladen.
+- Wird eine Überschrift auf eine andere Ebene gesetzt, mit der Klasse `wie-h2` das bisherige Aussehen erhalten (Regeln am Ende von `sj-gutachten.css`).
 - `assets/js/webflow.*.js` und jQuery sind unveränderte Webflow-Dateien: nicht bearbeiten, nicht umbenennen.
   Sie steuern Menü und Einblend-Animationen.
 - `data-wf-page` im `<html>`-Tag (Wert `wf_page` in `$page`) und alle `data-w-id`-Attribute müssen bleiben,

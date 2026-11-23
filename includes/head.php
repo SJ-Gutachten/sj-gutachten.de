@@ -3,6 +3,7 @@
 require_once __DIR__ . '/funktionen.php';
 $title = e($page['title']);
 $desc  = isset($page['description']) ? e($page['description']) : null;
+$basis = 'https://www.sj-gutachten.de';
 ?>
 <!DOCTYPE html><!-- Last Published: Thu Jan 22 2026 16:18:24 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.sj-gutachten.de" data-wf-page="<?= e($page['wf_page']) ?>" data-wf-site="67ee50c9927ae4a9464a69cd" lang="de-DE"><head>
 <meta charset="utf-8"/>
@@ -12,12 +13,13 @@ $desc  = isset($page['description']) ? e($page['description']) : null;
 <?php if ($desc !== null): ?><meta content="<?= $desc ?>" property="og:description"/><?php endif; ?>
 <meta content="<?= $title ?>" name="twitter:title"/>
 <?php if ($desc !== null): ?><meta content="<?= $desc ?>" name="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><?php endif; ?>
+<?php if (!empty($page['noindex'])): ?><meta name="robots" content="noindex"/>
+<?php else: ?><link rel="canonical" href="<?= e($basis . ($page['path'] === '/' ? '/' : $page['path'])) ?>"/>
+<?php endif; ?><meta property="og:image" content="<?= $basis ?>/assets/img/logo-sj-gutachten.jpg"/>
+<meta name="twitter:image" content="<?= $basis ?>/assets/img/logo-sj-gutachten.jpg"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <link href="/assets/css/sj-gutachten.css" rel="stylesheet" type="text/css"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-<script type="text/javascript">WebFont.load({  google: {    families: ["Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic","Droid Sans:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Raleway:300,regular,500,600,700,800","Roboto:300,regular,500,700","Barlow:300,regular,500,600,700","Barlow Condensed:300,regular,500,600,700","Nunito:300,regular,600,700","Dosis:300,regular,500,600","Play:regular,700","Cinzel:regular,700,900","Source Serif Pro:regular,600,700","EB Garamond:regular,500,600,700,800"]  }});</script>
+<link href="/assets/css/schriften.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
 <link href="/assets/img/wordpress-transparent-32x32.png" rel="shortcut icon" type="image/x-icon"/>
 <link href="/assets/img/favicon-transparent.ico" rel="apple-touch-icon"/>

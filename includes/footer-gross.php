@@ -6,7 +6,7 @@
 <div class="brix---footer-top-border-bottom-2">
 <div class="w-layout-grid grid-footer-4-cols-v14-2">
 <div id="w-node-feadc8b3-55aa-caaa-681d-b84d87372265-87372263">
-<div class="brix---mg-bottom-24px-2"><a href="#" class="brix---footer-logo-wrapper-2 w-inline-block"><img src="/assets/img/logo-sj-gutachten.jpg" alt="" width="140" class="brix---footer-logo-2"/></a>
+<div class="brix---mg-bottom-24px-2"><a href="/" class="brix---footer-logo-wrapper-2 w-inline-block"><img src="/assets/img/logo-sj-gutachten.jpg" alt="SJ-Gutachten – zur Startseite" width="140" class="brix---footer-logo-2"/></a>
 </div>
 <div class="w-layout-grid brix---social-media-grid-left-2"><a href="https://www.facebook.com/sjgutachten/?locale=de_DE" class="brix---icon-square-36px-2 w-inline-block"><img src="/assets/img/icon-facebook.svg" alt="Facebook - Elements Webflow Library - BRIX Templates"/></a><a href="https://www.instagram.com/sj_gutachten/" class="brix---icon-square-36px-2 w-inline-block"><img src="/assets/img/icon-instagram.svg" alt="Instagram - Elements Webflow Library - BRIX Templates"/></a>
 </div>

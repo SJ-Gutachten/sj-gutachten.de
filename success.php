@@ -1,7 +1,8 @@
 <?php
 $page = [
     'path'        => '/success',
-    'title'       => 'Success',
+    'title'       => 'Vielen Dank für Ihre Nachricht',
+    'noindex'     => true,
     'wf_page'     => '67ee50c9927ae4a9464a69d7',   // Webflow-Seiten-ID, steuert die Animationen in webflow.js
     'webflow_js'  => 'webflow.65cb6a99.ce3c982ff8a11fed.js',
 ];

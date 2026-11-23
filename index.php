@@ -31,20 +31,20 @@ $page = [
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "AutoRepair",
+  "@type": "LocalBusiness",
   "name": "SJ-Gutachten",
-  "image": "https://www.sj-gutachten.de/images/logo.png",
+  "image": "https://www.sj-gutachten.de/assets/img/logo-sj-gutachten.jpg",
   "url": "https://www.sj-gutachten.de",
-  "telephone": "+49-89-12345678",
+  "telephone": "+4917632150533",
+  "email": "info@sj-gutachten.de",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Musterstraße 1",
+    "streetAddress": "Am Ausbesserungswerk 8",
     "addressLocality": "München",
-    "postalCode": "80331",
+    "postalCode": "80939",
     "addressCountry": "DE"
   },
-  "openingHours": "Mo-Fr 08:00-18:00",
-  "priceRange": "€€",
+  "openingHours": ["Mo-Fr 07:00-22:00", "Sa 09:00-17:00"],
   "areaServed": {
     "@type": "Place",
     "name": ["München", "Freising", "Garching", "Unterföhring"]
@@ -84,7 +84,7 @@ require __DIR__ . '/includes/header.php';
 </div>
 <section id="Startseite" class="startseite-1 neuer-hintergrund">
 <div class="w-layout-blockcontainer container-9 w-container">
-<h2 class="heading-25">KFZ-Sachverständigenbüro Jovanovic</h2>
+<h1 class="heading-25 wie-h2">KFZ-Sachverständigenbüro Jovanovic</h1>
 </div>
 <div class="w-layout-blockcontainer container-10 w-container">
 <p class="paragraph-56">Wir sind ein unabhängiges Gutachterbüro in München und stehen für Ihr Recht ein! Gerne betreuen und beraten wir Sie nach einem Unfall, erstellen ein Gutachten und kontaktieren unseren Rechtsanwalt und unsere Versicherung. </p>
@@ -359,7 +359,7 @@ require __DIR__ . '/includes/header.php';
 <h2 class="heading-mittig1 heading-1">Weitere Informationen zu KFZ-Gutachten</h2>
 <div class="w-layout-grid _3er-grid1 flex">
 <div class="div-block-115">
-<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
+<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img width="512" height="512" src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
 <h3 class="heading-mittig1 heading-3">Haftpflicht-Versicherer und ihre Tricks<br/></h3>
 </div>
 <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
@@ -382,7 +382,7 @@ require __DIR__ . '/includes/header.php';
 </div>
 </div>
 <div class="div-block-115">
-<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
+<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img width="512" height="512" src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
 <h4 class="heading-mittig1 heading-3">Weshalb sollte ein Anwalt nach einem Unfall eingeschaltet werden?<br/></h4>
 </div>
 <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
@@ -402,7 +402,7 @@ require __DIR__ . '/includes/header.php';
 </div>
 </div>
 <div class="div-block-115">
-<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
+<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img width="512" height="512" src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
 <h4 class="heading-mittig1 heading-3">Kfz-Gutachten: Achsenvermessung und Rahmenvermessung<br/></h4>
 </div>
 <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
@@ -431,7 +431,7 @@ require __DIR__ . '/includes/header.php';
 </div>
 </div>
 <div class="div-block-115">
-<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
+<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img width="512" height="512" src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
 <h4 class="heading-mittig1 heading-3">10 wichtige Tipps für die Schadenregulierung und Beweissicherung<br/></h4>
 </div>
 <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
@@ -453,7 +453,7 @@ require __DIR__ . '/includes/header.php';
 </div>
 </div>
 <div class="div-block-115">
-<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
+<div class="inhalt-mittig-untereinander zweitfarbe effekt einsatz"><img width="512" height="512" src="/assets/img/magnifying-glass.png" alt="München" class="icon1 einsatzgebiete"/>
 <h4 class="heading-mittig1 heading-3">Wieso ein Kfz-Sachverständiger und welche Schadenarten gibt es<br/></h4>
 </div>
 <div data-hover="false" data-delay="0" class="dropdown w-dropdown">
