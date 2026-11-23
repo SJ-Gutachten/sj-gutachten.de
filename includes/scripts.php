@@ -3,4 +3,4 @@
 <script src="/assets/js/webflow.schunk.36b8fb49256177c8.js" type="text/javascript"></script>
 <script src="/assets/js/webflow.schunk.0c10309b43963a53.js" type="text/javascript"></script>
 <script src="/assets/js/<?= e($page['webflow_js']) ?>" type="text/javascript"></script><?= $page['body_extra'] ?? '' ?><?php foreach ($page['scripts'] ?? [] as $src): ?>
-<script src="<?= e($src) ?>" defer></script><?php endforeach; ?></body></html>
+<script src="<?= e(asset($src)) ?>" defer></script><?php endforeach; ?></body></html>
