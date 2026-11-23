@@ -148,13 +148,7 @@ $basis = 'https://www.sj-gutachten.de';
   }
 </style>
 
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5C4P7F6Z');
-</script>
-<!-- End Google Tag Manager --><?= $page['head_extra'] ?? '' ?></head>
+<!-- Statistik und Marketing: lädt erst nach Zustimmung, siehe assets/js/einwilligung.js -->
+<script>window.EINWILLIGUNG = { gtm: 'GTM-5C4P7F6Z', ga: 'G-ZQ6S5J0H2K', dienste: 'den Google Tag Manager, Google Analytics und darüber eingebundene Dienste wie das Facebook-Pixel (Meta)' };</script>
+<script src="/assets/js/einwilligung.js" defer></script><?= $page['head_extra'] ?? '' ?></head>
 <body<?= isset($page['body_class']) ? ' class="' . e($page['body_class']) . '"' : '' ?>>

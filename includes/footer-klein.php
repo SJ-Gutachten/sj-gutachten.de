@@ -18,6 +18,6 @@
 </div>
 </div>
 <div class="footertext1"><img src="/assets/img/impressum.svg" width="20" alt="München" loading="lazy" class="footer-image"/>
-<p class="impdat1"><a <?= nav_attrs('/impressum', 'link-impdat flie-text', ' target="_blank"') ?>>Impressum<br/></a><a <?= nav_attrs('/datenschutz', 'link-impdat flie-text') ?>>Datenschutz</a></p>
+<p class="impdat1"><a <?= nav_attrs('/impressum', 'link-impdat flie-text', ' target="_blank"') ?>>Impressum<br/></a><a <?= nav_attrs('/datenschutz', 'link-impdat flie-text') ?>>Datenschutz</a><br/><a href="/datenschutz#cookie-einstellungen" class="link-impdat flie-text" data-einwilligung-oeffnen>Cookie-Einstellungen</a></p>
 </div>
 </div>

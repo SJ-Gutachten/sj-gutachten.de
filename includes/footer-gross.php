@@ -15,7 +15,7 @@
 <div class="brix---footer-col-title-2">Öffnungszeiten </div><ul role="list" class="brix---footer-list-wrapper-2"><li class="brix---footer-list-item-2"><a href="#" class="brix---footer-link-2">Montag-Freitag: 07:00 - 22:00 Uhr</a></li><li class="brix---footer-list-item-2"><a href="#" class="brix---footer-link-2">Samstag: 09:00 - 17:00 Uhr</a></li></ul>
 </div>
 <div>
-<div class="brix---footer-col-title-2">Rechtliches </div><ul role="list" class="brix---footer-list-wrapper-2"><li class="brix---footer-list-item-2"><a <?= nav_attrs('/impressum', 'brix---footer-link-2', ' target="_blank"') ?>>Impressum</a></li><li class="brix---footer-list-item-2"><a <?= nav_attrs('/datenschutz', 'brix---footer-link-2', ' target="_blank"') ?>>Datenschutz</a></li></ul>
+<div class="brix---footer-col-title-2">Rechtliches </div><ul role="list" class="brix---footer-list-wrapper-2"><li class="brix---footer-list-item-2"><a <?= nav_attrs('/impressum', 'brix---footer-link-2', ' target="_blank"') ?>>Impressum</a></li><li class="brix---footer-list-item-2"><a <?= nav_attrs('/datenschutz', 'brix---footer-link-2', ' target="_blank"') ?>>Datenschutz</a></li><li class="brix---footer-list-item-2"><a href="/datenschutz#cookie-einstellungen" class="brix---footer-link-2" data-einwilligung-oeffnen>Cookie-Einstellungen</a></li></ul>
 </div>
 <div id="w-node-feadc8b3-55aa-caaa-681d-b84d87372285-87372263">
 <div class="brix---footer-col-title-2">Kontaktieren Sie uns</div><ul role="list" class="brix---footer-list-wrapper"><li class="brix---footer-list-item e-mail"><a href="mailto:info@sj-gutachten.de" class="brix---footer-link w-inline-block"><img src="/assets/img/icon-mail.svg" loading="lazy" width="24" alt="" class="brix---link-icon-left-2"/>
