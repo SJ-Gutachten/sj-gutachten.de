@@ -1,0 +1,65 @@
+{
+  "https://www.sj-gutachten.de/": {
+    "file": "index.html",
+    "status": 200,
+    "bytes": 67735,
+    "final_url": "https://www.sj-gutachten.de/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/anfrage": {
+    "file": "anfrage.html",
+    "status": 200,
+    "bytes": 20861,
+    "final_url": "https://www.sj-gutachten.de/anfrage",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/success": {
+    "file": "success.html",
+    "status": 200,
+    "bytes": 11420,
+    "final_url": "https://www.sj-gutachten.de/success",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/impressum": {
+    "file": "impressum.html",
+    "status": 200,
+    "bytes": 15435,
+    "final_url": "https://www.sj-gutachten.de/impressum",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/datenschutz": {
+    "file": "datenschutz.html",
+    "status": 200,
+    "bytes": 37622,
+    "final_url": "https://www.sj-gutachten.de/datenschutz",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/401": {
+    "file": "401.html",
+    "status": 200,
+    "bytes": 7842,
+    "final_url": "https://www.sj-gutachten.de/401",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/__notfound-probe-xyz": {
+    "file": "404.html",
+    "status": 404,
+    "bytes": 6630,
+    "final_url": "https://www.sj-gutachten.de/__notfound-probe-xyz",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/sitemap.xml": {
+    "file": "sitemap.xml",
+    "status": 200,
+    "bytes": 547,
+    "final_url": "https://www.sj-gutachten.de/sitemap.xml",
+    "content_type": "application/rss+xml; charset=utf-8"
+  },
+  "https://www.sj-gutachten.de/robots.txt": {
+    "file": "robots.txt",
+    "status": 200,
+    "bytes": 48,
+    "final_url": "https://www.sj-gutachten.de/robots.txt",
+    "content_type": "text/plain; charset=utf-8"
+  }
+}
