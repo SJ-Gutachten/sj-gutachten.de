@@ -92,7 +92,7 @@ require __DIR__ . '/includes/header.php';
 <div class="w-layout-blockcontainer container-11 w-container">
 <div class="div-block-128">
 <div style="padding-top:56.27659574468085%" class="video w-video w-embed">
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1081100840%3Fh%3D29aba53ced%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1081100840%2F29aba53ced&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2011813057-b1547821105c357a9ced622da1f1c51695ddd2738bb3cba72374812964b997bf-d_1280&type=text%2Fhtml&schema=vimeo" width="940" height="529" scrolling="no" allowfullscreen title="unterschleissheim"></iframe>
+<iframe class="embedly-embed" src="https://player.vimeo.com/video/1081100840?h=29aba53ced&amp;dnt=1" loading="lazy" width="940" height="529" scrolling="no" allowfullscreen title="unterschleissheim"></iframe>
 </div>
 </div>
 <div class="benefits-list">

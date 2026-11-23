@@ -148,7 +148,7 @@ $basis = 'https://www.sj-gutachten.de';
   }
 </style>
 
-<!-- Statistik und Marketing: lädt erst nach Zustimmung, siehe assets/js/einwilligung.js -->
-<script>window.EINWILLIGUNG = { gtm: 'GTM-5C4P7F6Z', ga: 'G-ZQ6S5J0H2K', dienste: 'den Google Tag Manager, Google Analytics und darüber eingebundene Dienste wie das Facebook-Pixel (Meta)' };</script>
+<!-- Statistik: lädt erst nach Zustimmung, siehe assets/js/einwilligung.js -->
+<script>window.EINWILLIGUNG = { ga: 'G-ZQ6S5J0H2K', dienste: 'Google Analytics' };</script>
 <script src="<?= e(asset('/assets/js/einwilligung.js')) ?>" defer></script><?= $page['head_extra'] ?? '' ?></head>
 <body<?= isset($page['body_class']) ? ' class="' . e($page['body_class']) . '"' : '' ?>>

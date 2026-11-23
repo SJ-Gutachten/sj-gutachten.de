@@ -59,11 +59,11 @@ Hauptverzeichnis. Sie wird nicht ins Repository übernommen.
 
 ## Einwilligung für Tracking
 
-Statistik- und Marketing-Dienste laden erst, nachdem Besucher im Hinweis am unteren Seitenrand auf „Zustimmen“ geklickt haben.
-Ohne Zustimmung wird nichts an Google oder Meta übertragen und kein Cookie gesetzt.
+Statistik-Dienste laden erst, nachdem Besucher im Hinweis am unteren Seitenrand auf „Zustimmen“ geklickt haben.
+Ohne Zustimmung wird nichts an Google übertragen und kein Cookie gesetzt.
 
 - Logik und Texte: `assets/js/einwilligung.js`, Aussehen am Ende der CSS-Datei (`.einwilligung`).
-- Welche Dienste geladen werden, steht in `includes/head.php` (`window.EINWILLIGUNG`). Hier: Google Tag Manager `GTM-5C4P7F6Z` (lädt unter anderem ein Facebook-Pixel nach) und Google Analytics `G-ZQ6S5J0H2K`.
+- Welche Dienste geladen werden, steht in `includes/head.php` (`window.EINWILLIGUNG`). Hier: Google Analytics `G-ZQ6S5J0H2K`. Der Google Tag Manager wurde entfernt; er hatte ausschließlich ein Facebook-Pixel geladen.
 - Die Entscheidung gilt 12 Monate und lässt sich über „Cookie-Einstellungen“ im Footer ändern; ein Widerruf löscht die Tracking-Cookies.
 - Weitere Dienste, die Cookies setzen oder Daten an Dritte senden, gehören ebenfalls hinter diese Einwilligung und in den Hinweistext.
 - Nicht davon erfasst: eingebettete Videos und das Elfsight-Widget; sie laden weiterhin sofort.
@@ -107,5 +107,5 @@ Testanfragen landen dann in `storage/testmail.txt`.
 
 Überschriften, deren Ebene geändert wurde, tragen die Klasse `wie-h2`, damit sie aussehen wie zuvor.
 
-Unverändert sind Impressum und Datenschutzerklärung. Tracking lädt nur noch nach Einwilligung (siehe „Einwilligung für Tracking“).
+Das Impressum ist unverändert. Die Datenschutzerklärung wurde angepasst (Hoster, eigener Einwilligungs-Hinweis, Google Analytics, Vimeo, Elfsight; consentmanager, YouTube und Adobe Fonts entfernt); das Video ist jetzt direkt über Vimeo mit Do-Not-Track eingebunden.
 Das Vorschaubild für soziale Netzwerke ist vorerst das Logo; ein eigenes Bild im Format 1200 × 630 px wäre besser.
